@@ -97,3 +97,38 @@ label {
     margin: 1rem 0;
     text-decoration: none;
 }
+
+
+@media screen and (max-width:900px) {
+    .login-img {
+        display: none;
+    }
+
+    .form-login {
+        width: 100%;
+        border-radius: 14px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .title {
+        font-size: 30px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+    .text {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .box-user , .box-pass , .box-btn {
+        max-width: 100%;
+    }
+    
+    .form-login {
+        padding: 0 30px;
+    }
+}
