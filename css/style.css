@@ -76,6 +76,10 @@ label {
     color: #fff;
 }
 
+::placeholder {
+    color: #fff;
+}
+
 .box-btn {
     width: 100%;
     max-width: 50%;
